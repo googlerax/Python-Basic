@@ -8,10 +8,11 @@ import math
 #IMC entre 25.0 y 29.9, rango de sobrepeso.
 #IMC es 30.0 o superior, rango de obesidad.
 
-peso = 55.0
-estatura = 1.62
+peso = input('Introduce tu peso en kg')
+estatura = input('Introduce tu estatura en metros')
 
-alCuadrado = math.pow(estatura,2)
-imc = peso / alCuadrado
+imc = round(float(peso) / float(estatura) ** 2,2)
 
-print('Tu indice de masa corporal es:',round(imc,2))
+
+
+print('Tu indice de masa corporal es:',str(imc))
