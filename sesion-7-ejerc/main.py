@@ -18,3 +18,19 @@ print('La multiplicacion da: ',multi)
 div = dividir(45,100)
 
 print('La division es de: ',div)
+
+
+
+
+#------------------------------------------------------------------------------------------------------------------------------#
+
+salida = time.localtime().tm_hour
+
+
+if (salida < 19):
+    def falta():
+        return 19 - salida
+    print('Son las',salida,'y faltan',falta(),'Horas para salir del trabajo.')
+
+elif (salida == 19):
+    print('Es hora de irse')
