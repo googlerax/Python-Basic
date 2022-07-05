@@ -1,4 +1,4 @@
-#objeto: representacion de algo del mundo real.
+
 class Vehiculo():    #clase
     color='azul'     #atributos o propiedades
     ruedas=4
