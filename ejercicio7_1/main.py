@@ -29,17 +29,3 @@ elif (salida == 19):
     print('Es hora de irse')
 
 
-
-hora = time.strftime('%H')
-
-print(hora)
-
-
-peso = input('Introduce tu peso en kg')
-estatura = input('Introduce tu estatura en metros')
-
-imc = round(float(peso) / float(estatura) ** 2,2)
-
-
-
-print('Tu indice de masa corporal es:',str(imc))
