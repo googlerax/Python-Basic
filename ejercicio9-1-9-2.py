@@ -1,14 +1,13 @@
 from functools import reduce
 
 
-def paises():
-    lista=[]
-    lista=(input('introduce lista de paises'))
-    return sorted(lista.split())
+items = input("Introduce países separados por comas:\n")
 
-print(paises())
+paises = [pais for pais in items.split(",")]
 
+print(",".join(sorted(list(set(paises)))))
 
+#----------------------------------------------ejercicio 2-------------------------------------------#
 
 lista=[14,54.8,7,0,15,99,52,70,11]
 
